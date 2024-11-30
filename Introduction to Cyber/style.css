@@ -104,3 +104,25 @@ body {
 .lesson-content ul li {
     margin-bottom: 10px;
 }
+
+.quiz-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.quiz-button:hover {
+    background-color: #45a049;
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
