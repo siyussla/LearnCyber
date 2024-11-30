@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnCyber.net</title>
+    <link rel="stylesheet" href="style.css">
+    <a href="D:\CSN\Sem 6\FYP\Web\Learn\Learning modules" class="card">
+        <!-- Card content -->
+    </a>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+            <h2 class="logo">LearnCyber.net</h2>
+            <div class="user-info">
+                <img src="user-avatar.png" alt="User Avatar" class="avatar">
+                <p class="user-name">Aniq</p>
+                <p class="role">Security Newbie</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#dashboard"><span class="icon">🖥️</span> Dashboard</a></li>
+                <li><a href="#learn" class="active"><span class="icon">📚</span> Learn</a></li>
+                <li><a href="#achievements"><span class="icon">🏆</span> Achievements</a></li>
+                <li><a href="#settings"><span class="icon">⚙️</span> Settings</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <header class="header">
+                <div class="header-title">
+                    <h1>Learn</h1>
+                    <p>Expand your knowledge | Learn new things day by day</p>
+                </div>
+            </header>
+            
+            <!-- Course Cards Section -->
+            <div class="cards-container">
+                <div class="card">
+                    <img src="icon1.png" alt="Intro Icon">
+                    <h3>Introduction to Cybersecurity</h3>
+                    <p>This course will teach you the basics of cybersecurity.</p>
+                </div>
+                <div class="card">
+                    <img src="icon4.png" alt="SQL Injection Icon">
+                    <h3>SQL Injection</h3>
+                    <p>What is SQL Injection?</p>
+                </div>
+                <div class="card">
+                    <img src="icon3.png" alt="Auth Icon">
+                    <h3>Identification and Authentication Failure</h3>
+                    <p>How do we suffer from it?</p>
+                </div>
+                <div class="card">
+                    <img src="icon2.png" alt="Insecure Design Icon">
+                    <h3>Insecure Design</h3>
+                    <p>Identify the design that is insecure in web applications.</p>
+                </div>
+                <div class="card" id="broken-access-control">
+                    <img src="icon5.png" alt="Access Control Icon">
+                    <h3>Broken Access Control</h3>
+                    <p>Learn how you can be exploited by it.</p>
+                </div>
+                <div class="card">
+                    <img src="icon6.png" alt="Social Engineering Icon">
+                    <h3>Social Engineering</h3>
+                    <p>Learn how hackers can fool you.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
